@@ -11,6 +11,7 @@ def hello():
 x=tkinter.Tk()
 x.geometry("300x300")
 label=Label(x,text="Your Age: ")
+label.pack()
 var=IntVar()
 r1=Radiobutton(x,text="Less Than 18",value=1,variable=var,command=hello)
 r1.pack()
