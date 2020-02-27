@@ -1,0 +1,17 @@
+import tkinter
+from tkinter import*
+x=tkinter.Tk()
+x.geometry("300x300")
+x.title("OS")
+var=IntVar()
+r1=Radiobutton(x,text="Ubuntu",variable=var,value=1,indicator=0,bg="yellow")
+r1.pack(fill=X)
+r2=Radiobutton(x,text="Windows",variable=var,value=2,indicator=0,bg="yellow")
+r2.pack(fill=X)
+r3=Radiobutton(x,text="Mac",variable=var,value=3,indicator=0,bg="yellow")
+r3.pack(fill=X)
+r4=Radiobutton(x,text="Linux",variable=var,value=4,indicator=0,bg="yellow")
+r4.pack(fill=X)
+label=Label(x)
+label.pack()
+x.mainloop()
